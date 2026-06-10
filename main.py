@@ -4,8 +4,8 @@
 import os  # 내부에 들어가 있는 코어 라이브러리 (설치 없이 사용 가능)
 import streamlit as st
 import tempfile
-from dotenv import load_dotenv
-load_dotenv()
+# from dotenv import load_dotenv
+# load_dotenv()
 
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
